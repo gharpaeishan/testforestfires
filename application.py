@@ -38,3 +38,6 @@ def predict_fwi():
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=2000)
+
+
+## application is used in AWS Elasticbean stalk using ebextensions python config
