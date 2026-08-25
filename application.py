@@ -8,8 +8,8 @@ application = Flask(__name__)
 app=application
 
 ## Interact with Ridge.pkl (Prediction) and Standard.pkl (Transformation)
-ridge_model = pickle.load(open('/Users/iverma/Library/CloudStorage/OneDrive-Personal/Documents/Udemy/ridge.pkl', 'rb'))
-standard_scaler = pickle.load(open('/Users/iverma/Library/CloudStorage/OneDrive-Personal/Documents/Udemy/scaler.pkl', 'rb'))
+ridge_model = pickle.load(open('ridge.pkl', 'rb'))
+standard_scaler = pickle.load(open('scaler.pkl', 'rb'))
 
 ## Create Home Page
 
